@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="referrer" content="no-referrer">
+
+	<link rel="stylesheet" href="css/main.min.css">
+	
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_405354_6zgl4d3ami74aemi.css">
+	<link rel="icon" href="images/3.jpg">
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.12.4.min.js"></script>
+	<title>Music Random</title>
+</head>
+<body>
+	
+	<div class="wrapper">
+		<!-- 背景图片 -->
+		 <div class="background">
+		 	<div class="music-lyric" style="display:none">
+		 		<div class="lyric-view">
+		 			<ul class="lyric"></ul>
+		 		</div>
+		 	</div>
+		 </div>
+		 <div class="bottom-part" style="background: #eef1f2;">
+			 <div class="content">
+				<audio src="" ></audio>
+				<div class="music-massage">
+					<p class="musicname" title="歌曲名"></p>
+					<span class="musicer" title="艺术家"></span>
+					<span class="iconfont icon-diantai" title="切换频道">
+					 	<span class="record" title="频道" data-id=""></span>
+					</span>
+				</div>
+				<!-- 分享，收藏，喜欢按钮 -->
+				<div class="music-icon">
+					<span class="iconfont icon-shoucang colored" title="收藏"></span>
+					<a class="iconfont icon-share colored" title="分享到新浪微博" href="http://service.weibo.com/share/share.php?title=#_loginLayer_1466697157538" target="new"></a>
+				</div>
+			</div>
+			<!-- 进度条 -->
+			<span class="basebar">
+				<span class="progressbar"></span>
+			</span>
+			<div class="controls">
+				<!-- 音乐播放，下一曲按钮 -->
+				<div class="play-control">
+					<!-- <span class="iconfont icon-last" title="上一曲"></span> -->
+					<span class="iconfont icon-play btn-play" title="播放/暂停"></span>
+					
+					<span class="iconfont icon-next1 btn-next" title="换曲"></span>
+				</div>
+				<!-- 循环播放，随机播放按钮 -->
+				<div class="music-control">
+					<span class="iconfont icon-danquxunhuan1 colored" title="单曲循环"></span>
+					<span class="iconfont icon-leyic colored" title="显示歌词"></span>
+				</div>			
+			</div>
+		</div>
+	</div>
+	<script src="js/main.min.js"></script>
+</body>
+</html>
